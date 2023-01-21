@@ -1,0 +1,79 @@
+body{
+    background-image: url("https://wallpaper.dog/large/5451965.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 0;
+    color: white;
+    background-attachment:fixed;
+    
+    
+ }
+ main{
+    padding: 100px;
+ }
+ header{
+    background-color: black;
+    padding:100px;
+    border-bottom-right-radius: 2000px 500px ;
+    border-bottom-left-radius: 2000px 200px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    padding: 55px;
+    font-family: serif;
+    text-shadow: 5px 5px 20px black;
+}
+footer{
+    text-align: center;
+    font-size: 55px;
+    font-weight: bolder;
+    
+}
+h1{
+    color: white;
+    text-align: center;
+    font-size: 55px;
+    text-shadow: 5px 5px 10px black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+    
+form{
+    background-color:rgb(47, 47, 47);
+    color: cornsilk;
+    border-radius: 52px;
+    padding: 5%;
+    margin: 4.5%;
+    font-size: large;
+}
+input[type="text"],
+input[type="email"],
+textarea
+{
+   width : 100%;
+   padding : 10px;
+   border:2px solid black;
+   border-radius: 22px;
+
+}
+legend{
+    text-align: center;
+    color: white;
+    font-size: larger;
+}
+input[type="submit"]{
+    background-color: rgb(143, 255, 31);
+    background-size: 200%;
+    border-radius: 10px;
+    border: none;
+    padding: 12px 20px;
+    color: rgb(255, 255, 255);
+    font-size: large;
+    width:102%;
+    box-align: center;
+}
+input[type="submit"]:hover{
+    background-color: #14a957;
+}

@@ -1,0 +1,58 @@
+body{
+    background-image: url("https://wallpaper.dog/large/5451965.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 0;
+    color: white;
+    background-attachment:fixed;
+    
+    
+ }
+ header{
+    background-color: black;
+    padding:100px;
+    border-bottom-right-radius: 2000px 500px ;
+    border-bottom-left-radius: 2000px 200px;
+    text-align: center;
+ }
+ a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    padding: 55px;
+    font-family: serif;
+ }
+ main{
+    margin:50px;
+    padding:100px;
+    position: relative;
+    font-size: 25px;
+    text-shadow: 5px 5px 5px black;
+    font-weight: bold;
+    font-family:monospace;
+ }
+ div{
+   position: relative;
+    padding: 100px;
+    margin:50px ;
+    font-size: 55px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+  
+    animation: animate 10s ease-in-out infinite;
+    
+ }
+ 
+@keyframes animate
+{
+    0%,100%
+    {
+        clip-path: polygon(0 44%, 10% 55%, 23% 61%, 38% 62%, 48% 50%, 61% 43%, 81% 41%, 100% 50%, 99% 100%, 0 100%);
+    }
+    50%
+    {
+        clip-path: polygon(0 44%, 13% 40%, 29% 40%, 39% 45%, 52% 53%, 66% 56%, 83% 56%, 100% 50%, 99% 100%, 0 100%);
+    }
+}
+
+

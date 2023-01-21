@@ -1,0 +1,42 @@
+body{
+    background-image: url("https://wallpaper.dog/large/5451965.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 0;
+    color: white;
+    background-attachment:fixed;
+    
+    
+ }
+ header{
+    background-color:black;
+    padding:100px;
+    border-bottom-right-radius: 2000px 500px ;
+    border-bottom-left-radius: 2000px 200px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    padding: 55px;
+    font-family: serif;
+    text-shadow: 5px 5px 20px black;
+}
+h1{
+    color:rgb(255, 255, 255);
+}
+    
+main{
+    margin:50px;
+    padding:100px;
+    position: relative;
+    font-size: 35px;
+    text-shadow: 5px 5px 5px black;
+    font-weight: bold;
+    font-family:monospace;
+}
+.a{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
